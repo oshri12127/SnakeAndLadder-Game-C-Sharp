@@ -1,0 +1,13 @@
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\bin\Debug\netcoreapp3.1\SimSnakeAndLadder.exe
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\bin\Debug\netcoreapp3.1\SimSnakeAndLadder.deps.json
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\bin\Debug\netcoreapp3.1\SimSnakeAndLadder.runtimeconfig.json
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\bin\Debug\netcoreapp3.1\SimSnakeAndLadder.runtimeconfig.dev.json
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\bin\Debug\netcoreapp3.1\SimSnakeAndLadder.dll
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\bin\Debug\netcoreapp3.1\SimSnakeAndLadder.pdb
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\obj\Debug\netcoreapp3.1\SimSnakeAndLadder.csprojAssemblyReference.cache
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\obj\Debug\netcoreapp3.1\SimSnakeAndLadder.csproj.CoreCompileInputs.cache
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\obj\Debug\netcoreapp3.1\SimSnakeAndLadder.AssemblyInfoInputs.cache
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\obj\Debug\netcoreapp3.1\SimSnakeAndLadder.AssemblyInfo.cs
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\obj\Debug\netcoreapp3.1\SimSnakeAndLadder.dll
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\obj\Debug\netcoreapp3.1\SimSnakeAndLadder.pdb
+C:\Users\Oshri\source\repos\SimSnakeAndLadder\SimSnakeAndLadder\obj\Debug\netcoreapp3.1\SimSnakeAndLadder.genruntimeconfig.cache
