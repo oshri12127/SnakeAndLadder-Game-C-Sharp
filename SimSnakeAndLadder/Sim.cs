@@ -15,7 +15,7 @@ namespace SimSnakeAndLadder
         public Sim() 
         {
             numberOfPlayers = 2;
-            sizeBoard = 99;
+            sizeBoard = 100;
             flagWinner = false;
         }
         public void Run()//run the simulation
@@ -53,9 +53,9 @@ namespace SimSnakeAndLadder
             tempSnakesSize = Console.ReadLine();
             Console.WriteLine("Enter amount of ladder");
             tempLaddersSize = Console.ReadLine();
-            while (int.TryParse(tempSnakesSize, out numericValue) == false || int.TryParse(tempLaddersSize, out numericValue) == false || Convert.ToInt32(tempLaddersSize) < 0 || Convert.ToInt32(tempSnakesSize) < 0 || Convert.ToInt32(tempSnakesSize) + Convert.ToInt32(tempLaddersSize) > sizeBoard / 2)
+            while (int.TryParse(tempSnakesSize, out numericValue) == false || int.TryParse(tempLaddersSize, out numericValue) == false || Convert.ToInt32(tempLaddersSize) < 0 || Convert.ToInt32(tempSnakesSize) < 0 || Convert.ToInt32(tempSnakesSize) + Convert.ToInt32(tempLaddersSize) > (sizeBoard-3) / 2)
             {
-                Console.WriteLine("Error,Invalid input or is negative number or the total sum of Snakes and Ladders exceed 50% of the board. Please enter a valid input");
+                Console.WriteLine("Error,Invalid input or is negative number or the total sum of Snakes and Ladders and 2 golden exceed 50% of the board. Please enter a valid input");
                 Console.WriteLine();
                 Console.WriteLine("Enter amount of snakes");
                 tempSnakesSize = Console.ReadLine();
@@ -85,11 +85,11 @@ namespace SimSnakeAndLadder
                 playersArray[i] = new Player(name);
             }
             Console.WriteLine();
-            boardGame = new Board(sizeBoard, snakesSize, laddersSize);
+            boardGame = new Board((sizeBoard-1), snakesSize, laddersSize);
         }
         private bool CheckIfWinner(int playerIndex)
         {
-            if(playersArray[playerIndex].Location>=sizeBoard)
+            if(playersArray[playerIndex].Location>=(sizeBoard-1))
             {
                 Console.WriteLine($"\"{playersArray[playerIndex].Name}\" has won!");
                 flagWinner = true;
